@@ -5,7 +5,7 @@ var readlinesync= require("readline-sync");
 
 var score1=0;
 var userName=readlinesync.question("May I know your name please?\n");
-console.log("Hey ",userName," this quiz is about how well you know about India.\n Let's get statted");
+console.log("Hey ",userName," this quiz is about how well you know about India.\n Let's get started");
 var arrHigh=[
   {
     name:"Piyush",
