@@ -59,7 +59,7 @@ for(i=0;i<arr1.length;i++){
 console.log("The final score is: ",score1);
 var score2=0;
 if(score1>=4){
-  console.log("Congratulations, you've reached level 2!");
+  console.log("--------------------------------\nCongratulations, you've reached level 2!");
   function play2(question2,answer2){
   var userAnswer2=readlinesync.question(question2);
   userAnswer2=userAnswer2.toLocaleUpperCase();
