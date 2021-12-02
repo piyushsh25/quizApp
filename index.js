@@ -1,6 +1,5 @@
-
+//two parts to the quiz if score is >= 4 ,you can attenpt other par. 10 questions in total
 var readlinesync= require("readline-sync");
-
 
 
 var score1=0;
@@ -107,7 +106,7 @@ console.log("Your total score is "+total);
 }else{
   console.log("Please try again to get into level 2")
 }
-"\n\n\n\\n\n"
+"\n\n\n\n\n"
 console.log("Check out the high scores ",);
 for(i=0;i<arrHigh.length;i++){
   var highScorers=arrHigh[i];
